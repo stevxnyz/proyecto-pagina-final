@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+<title>Little Treasures - Recicla con nosotros</title>
+<meta name="title" content="Little Treasures - Recicla con nosotros" />
+<meta name="description" content="Somos una empresa dedicada a la conservacion de nustro planeta.
+Queremos que te unas a nosotros para que obetangas conciencia social." />
+
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://stevxnyz.github.io" />
+<meta property="og:title" content="Little Treasures - Recicla con nosotros" />
+<meta property="og:description" content="Somos una empresa dedicada a la conservacion de nustro planeta.
+Queremos que te unas a nosotros para que obetangas conciencia social." />
+<meta property="og:image" content="https://stevxnyz.github.io/images/gaviotabasura.jpg" />
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://stevxnyz.github.io" />
+<meta property="twitter:title" content="Little Treasures - Recicla con nosotros" />
+<meta property="twitter:description" content="Somos una empresa dedicada a la conservacion de nustro planeta.
+Queremos que te unas a nosotros para que obtengas conciencia social." />
+<meta property="twitter:image" content="https://stevxnyz.github.io/images/playabotella.jpg" />
+
 </head>
 <body>
     
@@ -17,17 +41,20 @@
             </div>
 
             <ul class="nav__link nav__link--menu">
-                <li class="items">
+                <li class="nav__items">
                     <a href="#" class="nav__links">Inicio</a>
                 </li>
-                <li class="items">
+                <li class="nav__items">
                     <a href="#" class="nav__links">Acerca de</a>
                 </li>
-                <li class="items">
+                <li class="nav__items">
                     <a href="#" class="nav__links">Contato</a>
                 </li>
-                <li class="items">
+                <li class="nav__items">
                     <a href="#" class="nav__links">Blog</a>
+                </li>
+                <li class="nav__items">
+                    <a id="logout" href="#" class="nav__links logout-button">Salir</a>
                 </li>
 
                 <img src="images/close.svg" class="nav__close">
@@ -54,17 +81,17 @@
                 <article class="about__icons">
                     <img src="./images/shapes.svg" class="about__icon">
                     <h3 class="about__title">RIESGOS</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur facilis maxime sequi non ipsum laboriosam tempora ratione, illum molestias minima? Dicta est aspernatur consectetur doloremque repellat blanditiis, velit nulla?</p>
+                    <p class="about__paragraph">Tiene graves consecuencias para la salud humana y los ecosistemas. Esto incluye enfermedades respiratorias y cardiovasculares, riesgo de cáncer y problemas neurológicos.</p>
                 </article>
                 <article class="about__icons">
                     <img src="./images/paint.svg" class="about__icon">
                     <h3 class="about__title">VENTAJAS</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur facilis maxime sequi non ipsum laboriosam tempora ratione, illum molestias minima? Dicta est aspernatur consectetur doloremque repellat blanditiis, velit nulla?</p>
+                    <p class="about__paragraph">Reciclar tiene varias ventajas, como la reducción de la contaminación, el ahorro de recursos naturales, la disminución de la basura y la generación de empleo en el sector de reciclaje.</p>
                 </article>
                 <article class="about__icons">
                     <img src="./images/code.svg" class="about__icon">
                     <h3 class="about__title">PLANETA</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur facilis maxime sequi non ipsum laboriosam tempora ratione, illum molestias minima? Dicta est aspernatur consectetur doloremque repellat blanditiis, velit nulla?</p>
+                    <p class="about__paragraph">Reciclar reduce la necesidad de extraer y procesar materias primas, lo que ayuda a conservar recursos naturales como los bosques, minerales y agua.</p>
                 </article>
             </div>
         </section>
@@ -73,7 +100,14 @@
             <div class="knowledge__container container">
                 <div class="knowledge__texts">
                     <h2 class="subtitle">Aprende las ventajas de reciclar</h2>
-                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, qui eligendi obcaecati consequatur aliquam dolorem ad harum distinctio ratione aut magni? Fugiat ducimus sit quaerat doloribus nihil illo consequuntur? Magnam!</p>
+                    <p class="knowledge__paragraph">Reducción de la contaminación ambiental,
+                        Ahorro de recursos naturales,
+                        Disminución de la cantidad de basura en los vertederos,
+                        Conservación de la energía,
+                        Reducción de la emisión de gases de efecto invernadero,
+                        Protección de la biodiversidad y los ecosistemas,
+                        Generación de empleo en el sector del reciclaje y
+                        Promoción de una economía circular y sostenible.</p>
                     <a href="#" class="cta">Ven e informate!</a>
                 </div>
 
@@ -133,7 +167,169 @@
 
             </div>
         </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Hola!, mi nombres es Irene, <span class="testimony__course">integrante de Little Treasures</span></h2>
+                        <p class="testimony__review">Gracias a Little Treasures, he descubierto el poder que tengo como individuo para proteger nuestro planeta. Aprendí a rechazar el uso de plásticos de un solo uso, a cultivar mi propio huerto y a participar en actividades de limpieza comunitaria. Me siento parte de algo más grande y estoy emocionada de ser una voz para el cuidado del medio ambiente. Juntos, podemos marcar la diferencia y preservar nuestros preciosos recursos naturales.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Hola!, mi nombres es Jaira, <span class="testimony__course">integrante de Little Treasures</span></h2>
+                        <p class="testimony__review">Little treasures se ha convertido para mi en un proyecto para generar conciencia ambiental y mas que todo para ayudar nuestro medio ambiente, se que el reciclaje llevara lejos la conservacion de la tierra y si todos aportamos un granito de arena marcaremos la diferencia, queremos transmitir el mismo impulso y la misma dedicacion que cada uno de nuestros miembros del equipo, me siento llena de alegria pues este proyecto se ha convertido en un constante aprendizaje y claro que en lo que queremos que sea un planeta libre de riesgos y contaminacion.
+                        Unete a nosotros y aporta ese granito de arena para realizar un cambio en nuestro planeta.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Hola!, mi nombres es Steven, <span class="testimony__course">integrante de Little Treasures</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quis sed, labore vero odit l</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face 3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas regulares</h2>
+            <p class="questions__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium, quis necessitatibus.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Por que debemos reciclar?
+                            <span class="question__arrow">
+                                <img src="./images/arrow.svg" class="question__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Debemos reciclar porque ayuda a reducir la cantidad de residuos que generamos, conserva los recursos naturales, disminuye la contaminación y contribuye a la protección del medio ambiente.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Como reciclo?
+                            <span class="question__arrow">
+                                <img src="./images/arrow.svg" class="question__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Para reciclar, puedes seguir estos pasos:
+
+                            1. Separa los materiales reciclables de los no reciclables en tu hogar o lugar de trabajo.
+                            2. Identifica los contenedores de reciclaje cercanos a tu ubicación y deposita los materiales reciclables en el contenedor correspondiente.
+                            3. Asegúrate de limpiar y enjuagar los envases antes de reciclarlos.
+                            4. Infórmate sobre las regulaciones locales de reciclaje y los tipos de materiales que se aceptan en tu área.
+                            5. Reduce el consumo de productos de un solo uso y opta por artículos reutilizables.
+                            6. Considera compostar los residuos orgánicos para aprovecharlos como abono.
+                            7. Participa en programas de reciclaje comunitarios o eventos de recolección específicos.
+                            
+                            Recuerda que el reciclaje es una responsabilidad compartida y pequeñas acciones pueden hacer una gran diferencia en la protección del medio ambiente.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿En que me ayuda?
+                            <span class="question__arrow">
+                                <img src="./images/arrow.svg" class="question__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Reciclar es una forma efectiva de cuidar el medio ambiente y crear un futuro más sostenible para todos.</p>
+                    </div>
+                </article>
+                
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Listo para reciclar?</h2>
+                <p class="questions__copy">Te esperamos con los brazos abiertos para que formes parte de esta hermosa comunidad, queremos que tambien tengas ese sentimiento especial de cuidar nuestro hogar.</p>
+                <a href="#" class="cta">Recicla AHORA!</a>
+            </section>
+
+        </section>
+
     </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Reciclaje Ambiental</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contato</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/xvojyydp"
+            method="POST">
+                <h2 class="footer__newsletter">Sumate al reciclaje</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="email"> 
+                    <input type="submit" value="Notificaciones" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos Reservados &copy; Little Treasures</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/question.js"></script>
+    <script src="./js/menu.js"></script>
+
     
+    <script>
+        const user = JSON.parse(localStorage.getItem('login_success')) || false
+        if(!user){
+        window.location.href = 'login.html'
+        }
+        const logout = document.querySelector('#logout')
+        .addEventListener('click', ()=>{
+        alert('Hasta pronto!')
+        localStorage.removeItem('login_success')
+        window.location.href = 'login.html'
+        })
+        </script>
 </body>
 </html>
