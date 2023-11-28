@@ -53,7 +53,7 @@ section h2{
 
 section form{
     padding: 1.5em;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     max-width: 500px;
     border-radius: 20px;
@@ -163,4 +163,3 @@ section form input:focus,
 section form textarea:focus {
     border-color: #db241b;
 }
-
